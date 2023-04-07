@@ -51,6 +51,11 @@ local plugins = {
     -- maximizes and restores current window
     "szw/vim-maximizer",
     lazy = false
+  },
+  {
+    -- tmux & split window navigation
+    "christoomey/vim-tmux-navigator",
+    lazy = false
   }
 }
 return plugins
